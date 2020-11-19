@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+body {
+  padding: 6%;
+
+  --bg: #000000;
+  font-family: "Roboto", sans-serif;
+  --pbg: #202020;
+  --obg: #161616;
+  background-color: var(--bg);
+  --opc: white;
+  --link: rgb(224, 224, 224);
+  --main: #8380a4;
+  --secondary: #b3bbd3;
+}
+
+body.light {
+  padding: 6%;
+  --bg: rgb(238, 238, 238);
+  --pbg: #ffffff;
+  --obg: rgb(230, 230, 230);
+  font-family: "Roboto", sans-serif;
+  --opc: black;
+  --link: rgb(48, 49, 49);
+}
+
+#listItem {
+  color: pink;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  color: var(--opc) !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+.tl-edges {
+  overflow: visible;
+}
+@-webkit-keyframes fadeinBio {
+  from {
+    opacity: 0;
+    transform: translateY(150%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(10%);
+  }
+}
+@keyframes fadeinBio {
+  from {
+    opacity: 0;
+    transform: translateY(150%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(10%);
+  }
+}
+
+#smallBio {
+  opacity: 0;
+
+  -webkit-animation-name: fadeinBio;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fadeinBio;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+@media (max-width: 780px) {
+  .titles {
+    text-align: center;
+  }
+  #headTitle {
+    margin-left: 0 !important;
+    margin-top: 15%;
+    padding: 7%;
+    font-size: 10vw;
+  }
+  #subTitle {
+    margin-left: 0 !important;
+    padding: 7%;
+    font-size: 7vw;
+  }
+
+  #smallBio {
+    padding: 7%;
+    margin-left: 0% !important;
+    font-size: 5vw;
+  }
+}

@@ -1,0 +1,5 @@
+@media (max-width: 970px) {
+  .projectCard {
+    width: 100% !important;
+  }
+}
