@@ -33,7 +33,6 @@ const listStyle = {
 class ProjectCard extends React.Component {
   constructor(props) {
     super()
-    console.log(props.imgSrc)
     this.state = {
       name: props.name,
       tools: props.tools,

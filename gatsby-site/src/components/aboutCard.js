@@ -60,8 +60,8 @@ class AboutCard extends React.Component {
             <br />
             When I'm not coding, I'm probably listening to music on Spotify,
             over-analyzing TV shows or watching FC Barcelona... I was able to
-            take up many hobbies including embroidering, painting, and I'm even
-            learning to sew!
+            take up many hobbies including embroidering, painting, and even get
+            back into reading!
             <br />
             <br />
             Please do not hesitate to reach out to me if you would like to speak

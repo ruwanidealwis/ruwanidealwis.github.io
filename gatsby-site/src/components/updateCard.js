@@ -24,8 +24,7 @@ class UpdateCard extends React.Component {
           </Typography>
           <Typography variant="body1">
             <List>
-              <ListItem>-Analyzing World Happiness</ListItem>
-              <ListItem>-Space Barcode</ListItem>
+              <ListItem>a Flask Messaging App</ListItem>
             </List>
           </Typography>
           <Typography variant="h6" style={{ color: "var(--secondary)" }}>
@@ -33,7 +32,7 @@ class UpdateCard extends React.Component {
           </Typography>
           <Typography variant="body1">
             <List>
-              <ListItem>-A Man Called Ove</ListItem>{" "}
+              <ListItem>Murder on the Orient Express</ListItem>{" "}
             </List>
           </Typography>{" "}
           <Typography variant="h6" style={{ color: "var(--secondary)" }}>
@@ -41,7 +40,7 @@ class UpdateCard extends React.Component {
           </Typography>
           <Typography variant="body1">
             <List>
-              <ListItem>-New Girl & Gotham</ListItem>
+              <ListItem>The Crown</ListItem>
             </List>
           </Typography>
         </CardContent>
