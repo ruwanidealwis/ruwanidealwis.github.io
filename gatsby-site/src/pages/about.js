@@ -44,7 +44,7 @@ class About extends React.Component {
                 <UpdateCard />
               </Grid>
 
-              <Grid item lg={9} md={8} xs={12} style={{ margin: "auto" }}>
+              <Grid item lg={9} md={8} xs={12} style={{}}>
                 <AboutCard
                   webDevLink="../projects?filter=webDevelopment"
                   dataSciLink="../projects?filter=dataScience"

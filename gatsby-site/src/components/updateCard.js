@@ -15,9 +15,6 @@ class UpdateCard extends React.Component {
         {" "}
         <CardContent>
           {" "}
-          <Typography variant="h4" style={{ color: "var(--main)" }}>
-            Check In
-          </Typography>
           <br />
           <Typography variant="h6" style={{ color: "var(--secondary)" }}>
             Working On:
@@ -35,14 +32,6 @@ class UpdateCard extends React.Component {
               <ListItem>Murder on the Orient Express</ListItem>{" "}
             </List>
           </Typography>{" "}
-          <Typography variant="h6" style={{ color: "var(--secondary)" }}>
-            Watching:
-          </Typography>
-          <Typography variant="body1">
-            <List>
-              <ListItem>The Crown</ListItem>
-            </List>
-          </Typography>
         </CardContent>
       </Card>
     )
