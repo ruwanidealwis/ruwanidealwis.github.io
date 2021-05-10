@@ -6,7 +6,7 @@ import AboutCard from "../components/aboutCard"
 import BioCard from "../components/bioCard"
 import TemporaryDrawer from "../components/navigation"
 import UpdateCard from "../components/updateCard"
-
+import Footer from "../components/footer"
 class About extends React.Component {
   render() {
     return (
@@ -17,42 +17,48 @@ class About extends React.Component {
         <Paper
           style={{
             backgroundColor: "var(--obg)",
-            minHeight: "80vh",
+            minHeight: "100vh",
             minWidth: "100%",
             paddingTop: "0%",
-            marginBottom: "4%",
+            marginTop:"-3%",
+            
           }}
         >
           <TemporaryDrawer />
           <Box
             style={{
-              paddingLeft: "7%",
-              paddingRight: "7%",
-              paddingBottom: "2%",
+              backgroundColor: "var(--obg)",
+              paddingLeft: "4%",
+              paddingRight: "4%",
+              paddingBottom: "4%",
             }}
           >
             <Grid container spacing={4}>
               <Grid
                 item
-                lg={3}
+                lg={4}
                 md={4}
                 xs={12}
                 style={{ marginBottom: "4%", color: "orange" }}
               >
                 <BioCard />
 
-                <UpdateCard />
+               
               </Grid>
 
-              <Grid item lg={9} md={8} xs={12} style={{}}>
+              <Grid item lg={8} md={8} xs={12} style={{}}>
                 <AboutCard
                   webDevLink="../projects?filter=webDevelopment"
                   dataSciLink="../projects?filter=dataScience"
                   style={{}}
                 ></AboutCard>
               </Grid>
+            
             </Grid>
+           
+
           </Box>
+          <Footer style={{ marginRight: "4%"}}/>
         </Paper>
       </>
     )

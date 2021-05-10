@@ -45,18 +45,9 @@ class Home extends React.Component {
                     direction="right"
                     to="/about"
                   >
-                    here
-                  </AniLink>
-                  , and view my projects{" "}
-                  <AniLink
-                    activeStyle={{ color: "#ffce72" }}
-                    swipe
-                    style={{ color: "black", textDecoration: "underline" }}
-                    direction="right"
-                    to="/projects"
-                  >
                     here.
-                  </AniLink>{" "}
+                  </AniLink>
+                
                 </Typography>
               </Grid>
             </Grid>

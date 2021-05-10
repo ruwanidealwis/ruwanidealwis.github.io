@@ -89,6 +89,7 @@ class Projects extends React.Component {
                   <Typography variant="h4" style={{ color: "var(--main)" }}>
                     Projects.
                   </Typography>
+                  <br/>
                   <Typography variant="body1">
                     These are some of the projects I have worked on during my
                     spare time. While most of these are complete, I am always
