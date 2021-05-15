@@ -49,10 +49,11 @@ export default function BlogPosts() {
   `)
   return (
     <>
-      <Grid container style={{ paddingLeft: "4%", paddingTop: "4%", paddingRight: "4%", justifyContent: "center" }}>
-        <Grid Item md={9} xs={12} >
+      <Grid container style={{ paddingLeft: "4%", paddingTop: "4%", paddingRight: "4%" }}>
+        <Grid Item md={12} xs={12} >
           {data.allMediumPost.edges.map(edges => {
             return (
+              
               <Card
                 style={{
                   backgroundColor: "var(--pbg)",

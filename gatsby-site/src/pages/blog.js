@@ -6,6 +6,8 @@ import { Grid, Paper, Box } from "@material-ui/core"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BlogPosts from "../components/blogPosts"
 import BioCard from "../components/bioCard"
+import TitleComponent from "../components/titleComponent"
+import Footer from "../components/footer"
 class Blog extends React.Component {
   render() {
     return (
@@ -37,11 +39,22 @@ class Blog extends React.Component {
                   <BioCard />
                 </div>
               </Grid>
-              <Grid item lg={8} md={12} xs={12}>
-                <BlogPosts />
+              <Grid item md={8} xs={12}>
+                <Grid container spacing={3}>
+                  <Grid item md={8} xs={12}>
+                    <TitleComponent
+                      title="Writing."
+                      description="writing from a very mediocre writer"
+                    />
+                  </Grid>
+                  <Grid item md={12} xs={12}>
+                    <BlogPosts />
+                  </Grid>
+                </Grid>
               </Grid>
             </Grid>
           </Box>
+                <Footer style={{ marginRight: "4%" }} />
         </Paper>
       </>
     )

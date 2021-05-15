@@ -3,6 +3,7 @@ import Carousel from "react-material-ui-carousel"
 import {
   Paper,
   Button,
+  Grid,
   Card,
   CardMedia,
   CardContent,
@@ -42,6 +43,8 @@ class ImageCard extends React.Component {
   }
   render() {
     return (
+        <Grid container>
+        <Grid item md={12}>
       <Card
         style={{
           backgroundColor: "var(--pbg)",
@@ -49,6 +52,7 @@ class ImageCard extends React.Component {
           width: "100%",
         }}
       >
+
         <CardMedia style={{ height: "50%" }}>
           <ImageCarousel images={this.state.images}></ImageCarousel>
         </CardMedia>
@@ -63,6 +67,8 @@ class ImageCard extends React.Component {
           </Typography>
         </CardContent>
       </Card>
+            </Grid>
+        </Grid>
     )
   }
 }

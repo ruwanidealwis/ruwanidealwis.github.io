@@ -18,6 +18,7 @@ import ProjectCard from "../components/projectCard"
 import "../../static/styles/projects.css"
 import BioCard from "../components/bioCard"
 import Footer from "../components/footer"
+import TitleComponent from "../components/titleComponent"
 class Projects extends React.Component {
   constructor(props) {
     super(props)
@@ -93,54 +94,7 @@ class Projects extends React.Component {
               <Grid item lg={8} md={12}>
                 <Grid container spacing={3}>
                   <Grid item md={8} xs={12}>
-                    <Card
-                      style={{
-                        backgroundColor: "var(--pbg)",
-                        margin: "5%",
-
-                        marginBottom: "7%",
-                        boxShadow: "10px 10px",
-                        color: "var(--secondary)",
-                      }}
-                    >
-                      <CardContent>
-                        <Typography
-                          variant="h4"
-                          style={{ color: "var(--main)" }}
-                        >
-                          Projects.
-                        </Typography>
-                        <br />
-                        <Typography variant="body1">
-                          These are some of the projects I have worked on during
-                          my spare time. While most of these are complete, I am
-                          always planning on improving and expanding upon these.
-                        </Typography>
-                        <br />
-                        <FormControl>
-                          <InputLabel htmlFor="my-input">
-                            Project Type
-                          </InputLabel>
-                          <NativeSelect
-                            value={
-                              this.state.webDevelopment
-                                ? this.state.dataScience
-                                  ? "all"
-                                  : "webDevelopment"
-                                : "dataScience"
-                            }
-                            onChange={this.handleChange}
-                            style={{ color: "var(--secondary)" }}
-                          >
-                            <option value={"all"}>All</option>
-                            <option value={"webDevelopment"}>
-                              Web Development
-                            </option>
-                            <option value={"dataScience"}>Data Science</option>
-                          </NativeSelect>
-                        </FormControl>
-                      </CardContent>
-                    </Card>
+                    <TitleComponent title="Projects." description="some of my projects from the past" />
                   </Grid>
                   <br></br>
                   <br></br>
