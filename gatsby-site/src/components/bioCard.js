@@ -31,18 +31,17 @@ class BioCard extends React.Component {
             marginTop: "0%",
             backgroundColor: "var(--pbg)",
             marginBottom: "12%",
+
+            width: "100%",
           }}
         >
-          <CardMedia
-            style={{ height: "25vh", width: "100vw" }}
-            image={testImage}
-          ></CardMedia>
+          <CardMedia style={{ height: "25vh" }} image={testImage}></CardMedia>
 
           <Card
             elevation="0"
             style={{
               marginLeft: "9%",
-              marginTop: "-12%",
+              marginTop: "-18%",
               backgroundColor: "#00000000",
               padding: "0%",
               marginBottom: "0",
@@ -58,36 +57,11 @@ class BioCard extends React.Component {
               <Grid item md={9} sm={12} style={{ position: "relative" }}>
                 <CardContent
                   style={{
-                    paddingLeft: "8%",
+                    paddingLeft: "20%",
                     textAlign: "left",
+                    paddingTop: "13%",
                   }}
-                >
-                  <Grid container spacing={0}>
-                    <Grid item md={12} style={{ height: "30px" }}>
-                      <div></div>
-                    </Grid>
-                    <Grid item md={12}>
-                      <Typography
-                        gutterBottom
-                        variant="h4"
-                        align="left"
-                        component="h2"
-                      >
-                        ruwani ✨
-                      </Typography>
-                    </Grid>
-                    <Grid item md={12}>
-                      <Typography
-                        gutterBottom
-                        variant="body1"
-                        align="left"
-                        component="h2"
-                      >
-                        @ruwanidealwis
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </CardContent>
+                ></CardContent>
               </Grid>
             </Grid>
           </Card>
@@ -98,7 +72,23 @@ class BioCard extends React.Component {
             }}
           >
             <Typography
-              gutterBottom
+              style={{
+              
+                margin: "1%",
+                fontWeight:"500",
+                paddingLeft: "5%",
+                color: "var(--main)",
+              }}
+              fontWeight="fontWeightBold"
+              variant="h5"
+              align="left"
+              component="h3"
+            >
+              ruwani ✨
+            </Typography>
+
+            <Typography
+           
               variant="body1"
               align="left"
               component="h2"
@@ -107,8 +97,9 @@ class BioCard extends React.Component {
                 paddingTop: "0",
               }}
             >
-              SDE Intern @ SSENSE
+              @ruwanidealwis
             </Typography>
+          
             <List
               style={{
                 display: "inline-flex",
@@ -123,6 +114,7 @@ class BioCard extends React.Component {
                 padding: "0",
               }}
             >
+           
               <ListItem
                 component="a"
                 href="mailto: ruwanide51@gmail.com"

@@ -74,17 +74,7 @@ export default function TemporaryDrawer() {
         >
           ABOUT
         </AniLink>
-        <AniLink
-          activeStyle={{ color: "var(--main)" }}
-          style={linkStyle}
-          swipe
-          direction="right"
-          duration={1}
-          to="/toolkit"
-        >
-          TOOLKIT
-        </AniLink>
-
+     
         <AniLink
           activeStyle={{ color: "var(--main)" }}
           style={linkStyle}
@@ -95,6 +85,17 @@ export default function TemporaryDrawer() {
         >
           PROJECTS
         </AniLink>
+        <AniLink
+          activeStyle={{ color: "var(--main)" }}
+          style={linkStyle}
+          swipe
+          direction="right"
+          duration={1}
+          to="/blog"
+        >
+          BLOG
+        </AniLink>
+
       </Paper>
     </div>
   )

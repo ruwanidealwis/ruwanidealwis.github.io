@@ -1,58 +1,50 @@
-import { Card, CardContent, Grid, Paper, Typography } from "@material-ui/core"
 import React from "react"
+import { Helmet } from "react-helmet"
+import "../../static/styles/index.css"
 import TemporaryDrawer from "../components/navigation"
-
+import { Grid, Paper, Box } from "@material-ui/core"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import BlogPosts from "../components/blogPosts"
+import BioCard from "../components/bioCard"
 class Blog extends React.Component {
   render() {
     return (
-      <Paper elevation={25}>
-        <div
+      <>
+        <Helmet>
+          <title>Ruwani's Portfolio</title>
+        </Helmet>
+        <Paper
           style={{
             backgroundColor: "var(--obg)",
-            minHeight: "80vh",
+            minHeight: "100vh",
             minWidth: "100%",
             paddingTop: "0%",
-
-            marginBottom: "4%",
+            marginTop: "-3%",
           }}
         >
           <TemporaryDrawer />
-          <Grid container style={{ paddingLeft: "4%", paddingRight: "4%" }}>
-            <Grid Item md={12}>
-              <Card>
-                <CardContent>
-                  {" "}
-                  <Typography variant="h4">Embroidery.</Typography>
-                  <Typography variant="body1">
-                    A little hobby I picked up over Quarentine.
-                  </Typography>
-                </CardContent>
-              </Card>
+          <Box
+            style={{
+              backgroundColor: "var(--obg)",
+              paddingLeft: "3%",
+              paddingRight: "3%",
+              paddingBottom: "8%",
+            }}
+          >
+            <Grid container spacing={8}>
+              <Grid item lg={4} md={12}>
+                <div style={{ margin: "5%", top: "190px", position: "sticky" }}>
+                  <BioCard />
+                </div>
+              </Grid>
+              <Grid item lg={8} md={12}>
+                <BlogPosts />
+              </Grid>
             </Grid>
-            <Grid Item md={12}>
-              <Typography variant="h4">Sewing.</Typography>
-              <Typography variant="body1">
-                Another habbit I picked up over Quarentine
-              </Typography>
-            </Grid>
-
-            <Grid Item md={12}>
-              <Typography variant="h4">Art.</Typography>
-              <Typography variant="body1">
-                A hobby I'm really trying to get back to!
-              </Typography>
-            </Grid>
-            <Grid Item md={12}>
-              <Typography variant="h4">Some Writing.</Typography>
-              <Typography variant="body1">
-                A small way to improve my written communication
-              </Typography>
-            </Grid>
-          </Grid>
-        </div>
-      </Paper>
+          </Box>
+        </Paper>
+      </>
     )
   }
 }
-
 export default Blog

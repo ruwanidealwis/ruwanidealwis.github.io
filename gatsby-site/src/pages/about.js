@@ -28,12 +28,12 @@ class About extends React.Component {
           <Box
             style={{
               backgroundColor: "var(--obg)",
-              paddingLeft: "4%",
-              paddingRight: "4%",
-              paddingBottom: "4%",
+              paddingLeft: "3%",
+              paddingRight: "3%",
+              paddingBottom: "3%",
             }}
           >
-            <Grid container spacing={4}>
+            <Grid container spacing={8}>
               <Grid
                 item
                 lg={4}
@@ -41,8 +41,9 @@ class About extends React.Component {
                 xs={12}
                 style={{ marginBottom: "4%", color: "orange" }}
               >
-                <BioCard />
-
+                <div style={{ margin: "5%", top: "190px", position: "sticky" }}>
+                  <BioCard />
+                </div>
                
               </Grid>
 
