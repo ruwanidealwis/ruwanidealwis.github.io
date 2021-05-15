@@ -32,7 +32,6 @@ class BioCard extends React.Component {
             backgroundColor: "var(--pbg)",
             marginBottom: "12%",
 
-            width: "100%",
           }}
         >
           <CardMedia style={{ height: "25vh" }} image={testImage}></CardMedia>
@@ -41,28 +40,22 @@ class BioCard extends React.Component {
             elevation="0"
             style={{
               marginLeft: "9%",
-              marginTop: "-18%",
+              marginTop: "-15%",
               backgroundColor: "#00000000",
               padding: "0%",
               marginBottom: "0",
+              width:"90%",
+              
             }}
           >
             <Grid container spacing={3}>
-              <Grid item md={3} sm={12}>
+              <Grid item lg={3} md={3} sm={12}>
                 <CardMedia
                   style={{ height: "100px", width: "100px" }}
                   image={iconImage}
                 ></CardMedia>
               </Grid>
-              <Grid item md={9} sm={12} style={{ position: "relative" }}>
-                <CardContent
-                  style={{
-                    paddingLeft: "20%",
-                    textAlign: "left",
-                    paddingTop: "13%",
-                  }}
-                ></CardContent>
-              </Grid>
+              
             </Grid>
           </Card>
 

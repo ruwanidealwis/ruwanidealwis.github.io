@@ -95,6 +95,16 @@ export default function TemporaryDrawer() {
         >
           BLOG
         </AniLink>
+        <AniLink
+          activeStyle={{ color: "var(--main)" }}
+          style={linkStyle}
+          swipe
+          direction="right"
+          duration={1}
+          to="/art"
+        >
+          ART
+        </AniLink>
 
       </Paper>
     </div>

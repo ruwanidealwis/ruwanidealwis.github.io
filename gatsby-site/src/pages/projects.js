@@ -85,11 +85,11 @@ class Projects extends React.Component {
             }}
           >
             <Grid container spacing={8}>
-              <Grid item lg={4} md={12}>
-                <div style={{ margin: "5%", top: "190px", position: "sticky" }}>
-                  <BioCard />
-                </div>
-              </Grid>
+                <Grid item lg={4} md={12} xs={12}>
+                  <div style={{ margin: "5%", top: "190px", position: "sticky" }}>
+                    <BioCard />
+                  </div>
+                </Grid>
               <Grid item lg={8} md={12}>
                 <Grid container spacing={3}>
                   <Grid item md={8} xs={12}>
