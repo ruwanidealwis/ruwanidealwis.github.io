@@ -10,8 +10,9 @@ body {
   background-color: var(--bg);
   --opc: white;
   --link: rgb(224, 224, 224);
-  --main: #8380a4;
-  --secondary: #b3bbd3;
+  --main: #F0C987;
+  --secondary: #B8CDF8
+;
 }
 
 body.light {
@@ -67,11 +68,11 @@ a:hover {
 
   -webkit-animation-name: fadeinBio;
   -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
   animation-name: fadeinBio;
   animation-duration: 2s;
-  animation-delay: 4s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
