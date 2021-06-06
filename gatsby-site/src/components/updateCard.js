@@ -23,7 +23,7 @@ class UpdateCard extends React.Component {
             alignItems: 'center',
             flexWrap: 'wrap',
             backgroundColor: "var(--pbg)",
-            paddingLeft:'3%'}}
+            paddingLeft:'5%'}}
             >
             <MenuBookIcon color="secondary"/>
             <span >
@@ -47,7 +47,7 @@ class UpdateCard extends React.Component {
             alignItems: 'center',
             flexWrap: 'wrap',
             backgroundColor: "var(--pbg)",
-            paddingLeft: '3%',
+            paddingLeft: '5%',
             paddingTop:"3%"
           }}
           >
@@ -73,7 +73,7 @@ class UpdateCard extends React.Component {
             alignItems: 'center',
             flexWrap: 'wrap',
             backgroundColor: "var(--pbg)",
-            paddingLeft: '3%',
+            paddingLeft: '5%',
             paddingTop:"3%"
           }}
           >

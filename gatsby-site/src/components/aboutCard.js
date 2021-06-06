@@ -43,7 +43,7 @@ class AboutCard extends React.Component {
             variant="body1"
             style={{ lineHeight: "2", paddingLeft: "2%", margin: "2%" }}
           >
-            <p>I am currently interning as an SDE Intern @ SSENSE & and volunteering as a Backend Developer @ CU Blueprint where I help build apps for non-profits. I have experience with a variety of languages/frameworks such as: TypeScript (JavaScript), ExpressJs, Flask, Python, Java, React, Vue, Dart For a more in-depth look at my skills you can check out my resume here.  </p>
+            <p>I am currently interning as an SDE Intern @ SSENSE & and volunteering as a Backend Developer @ CU Blueprint where I help build apps for non-profits. I have experience with a variety of languages/frameworks and mostly work with JavaScript, Python & Java. </p>
 
             <p>My interests in tech include fullstack development, mobile development & machine learning. I try to explore those interests through personal projects & hackathons which you can check out here. I am also a scratch/python instructor @ kids code jeunesse, and I've also run intro to html/css/js workshops for non-coders.</p>
           </Typography>
@@ -61,8 +61,7 @@ class AboutCard extends React.Component {
             variant="body1"
             style={{ lineHeight: "2", paddingLeft: "2%", margin: "2%" }}
           >
-            <p>I spend much of my free time browsing netflix (reccomendations are always welcome!), and I even write about some of my favourite tv shows. When I'm not consuming televison, I like to paint, embroider, and sew! I love watching sports, and as a fan of FC Barcelona, and try to catch all their games, though it's been a lot of heartbreak recently. I am also getting back into reading, so suggestions are always appreciated and welcome!</p>
-
+            <p>I spend much of my free time browsing netflix (reccomendations are always welcome!), and I even write about some of my favourite <a href="/blog"> tv shows/ movies </a>. When I'm not consuming televison, I like to paint, embroider, and sew! I love watching sports, and as a fan of FC Barcelona, and try to catch all their games, though it's been a lot of heartbreak recently. I am also getting back into reading, so suggestions are always appreciated and welcome!</p>
           </Typography>
 
         </CardContent>

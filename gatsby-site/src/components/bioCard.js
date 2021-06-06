@@ -115,13 +115,13 @@ class BioCard extends React.Component {
               >
                 <ListItemText
                   display="block"
-                  primaryTypographyProps={{ style: { color: "var(--main)" } }}
+                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration:'underline' } }}
                   primary="email"
                 />
               </ListItem>
               <ListItem component="a" href="https://github.com/ruwanidealwis">
                 <ListItemText
-                  primaryTypographyProps={{ style: { color: "var(--main)" } }}
+                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration: 'underline'  } }}
                   primary="github"
                 />
               </ListItem>
@@ -130,7 +130,7 @@ class BioCard extends React.Component {
                 href="https://www.linkedin.com/in/ruwani-de-alwis-610476187/"
               >
                 <ListItemText
-                  primaryTypographyProps={{ style: { color: "var(--main)" } }}
+                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration: 'underline'  } }}
                   primary="linkedin"
                 />
               </ListItem>

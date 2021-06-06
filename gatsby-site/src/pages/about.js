@@ -59,6 +59,9 @@ class About extends React.Component {
            
 
           </Box>
+          <br/>
+          <br />
+          <br />
           <Footer style={{ marginRight: "4%"}}/>
         </Paper>
       </>
