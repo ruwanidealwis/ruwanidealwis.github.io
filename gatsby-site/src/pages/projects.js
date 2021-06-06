@@ -94,7 +94,7 @@ class Projects extends React.Component {
               <Grid item lg={8} md={12}>
                 <Grid container spacing={3}>
                   <Grid item md={8} xs={12}>
-                    <TitleComponent title="Projects." description="some of my projects from the past" />
+                    <TitleComponent title="Projects." description="these are some of my favourite projects i've done, you can check out my full list of projects here!" />
                   </Grid>
                   <br></br>
                   <br></br>
@@ -114,28 +114,21 @@ class Projects extends React.Component {
                           "Compare you Spotify Listening Habbits against the top tracks of the decade!"
                         }
                         type={"Web Development"}
-                        description={`
-This app uses the Spotify API to generate statistics of the users' top songs and the top 100 hits of the decade (as provided by https://tsort.info/ ). The user can compare their music tastes (based on audio features provided by Spotify) to that of the top hits in a specific decade.
-
-I love listening to music from the ’80s/70’s and I thought it would a great way to learn how similar my music tastes were to that of the mainstream hits from the past, and potentially discover some new hits.`}
+                        description={`a project to allow users to compare their spotify stats with the music of the past & discover some new bangers`}
                         tools={[
                           "NodeJs",
-                          "ExpressJs",
+                        
                           "React",
                           "Material-UI",
-                          "Spotify",
+                       
                           "POSTGRESQL",
-                          "BeauitfulSoup",
-                          "Heroku",
+                       
                         ]}
-                        nextSteps={
-                          "Use Machine learning to create a more intelligent recommendation system."
-                        }
                         githubLink={
                           "https://github.com/ruwanidealwis/musicThroughDecades"
                         }
                         liveLink={"https://musicthroughdecades.herokuapp.com/"}
-                        imgSrc={withPrefix("/images/musicthroughdecades.png")}
+                        imgSrc={withPrefix("/images/musicthroughdecadessnippet-5.png")}
                         style={{
                           display: this.state.webDevelopment ? "" : "none",
                         }}

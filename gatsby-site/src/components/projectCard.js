@@ -60,14 +60,31 @@ class ProjectCard extends React.Component {
           backgroundColor: "var(--pbg)",
           overflow: "visible",
         }}
+
+
       >
+        <CardMedia
+          style={{
+            height: 420,
+
+
+            overflow: "visible",
+            color: "var(--secondary)",
+            objectFit: "cover",
+          }}
+          image={imgSrc}
+        ></CardMedia>
         <CardContent style={{ padding: "4%" }}>
           <Grid container spacing={0}>
-            <Grid item md={6} xs={12}>
+
+            <Grid item md={12}>
               <Typography variant="h4" style={{ color: "var(--secondary)" }}>
                 {name}
               </Typography>
-              <br></br>
+            </Grid>
+           
+      
+            <Grid item md={12} xs={12}>
               <List
                 style={{
                   display: "inline-flex",
@@ -80,42 +97,9 @@ class ProjectCard extends React.Component {
                   return <Typography style={listStyle}>{value}</Typography>
                 })}
               </List>
-              <List style={{ display: "flex", width: "10%" }}>
-                <ListItem
-                  button
-                  component="a"
-                  target="_blank"
-                  href={githubLink}
-                >
-                  <ListItemIcon>
-                    <GithubIcon />
-                  </ListItemIcon>
-                </ListItem>
-                <ListItem button component="a" target="_blank" href={liveLink}>
-                  <ListItemIcon>
-                    <LinkIcon color="secondary" />
-                  </ListItemIcon>
-                </ListItem>
-              </List>
-            </Grid>
-            <Grid item md={6} xs={12}>
-              <Hidden smDown>
-                <Link to={liveLink}>
-                  <CardMedia
-                    style={{
-                      height: 260,
-                      marginTop: "-22%",
 
-                      overflow: "visible",
-                      boxShadow: "10px 10px",
-                      color: "var(--secondary)",
-                      objectFit: "cover",
-                    }}
-                    image={imgSrc}
-                  ></CardMedia>
-                </Link>
-              </Hidden>
             </Grid>
+
 
             <Grid item md={12} xs={12}>
               {description.split("\n").map(sentence =>
@@ -128,23 +112,9 @@ class ProjectCard extends React.Component {
                   ""
                 )
               )}
-              <br></br>
+             
 
-              <Typography
-                variant="h6"
-                style={{
-                  fontFamily: "Raleway",
-                  color: "var(--secondary)",
-                  fontSize: "1.1rem",
-                }}
-              >
-                Next Steps
-              </Typography>
-              {nextSteps.split("\n").map(sentence => (
-                <div>
-                  <Typography variant="body1">-{sentence}</Typography>
-                </div>
-              ))}
+
             </Grid>
           </Grid>
         </CardContent>
