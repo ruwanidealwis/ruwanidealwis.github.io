@@ -3,7 +3,7 @@ import React from "react"
 
 class TitleComponent extends React.Component {
   constructor(props) {
-      super();
+    super();
     this.state = {
       title: props.title,
       description: props.description,

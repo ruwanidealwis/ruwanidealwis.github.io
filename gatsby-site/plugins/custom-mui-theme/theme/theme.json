@@ -81,14 +81,14 @@
     },
 
     "h5": {
-      "color": "#8380a4",
+      "color": "#B8CDF8",
       "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
       "fontSize": "1.2rem",
       "fontWeight": 400,
       "marginRight": "-.02em"
     },
       "h6": {
-      "color": "#8380a4",
+      "color": "#B8CDF8",
       "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
       "fontSize": "0.98rem",
       "fontWeight": 600,
@@ -221,7 +221,7 @@
     },
     "divider": "rgba(0, 0, 0, 0.12)",
     "secondary": {
-      "main": "#8380a4",
+      "main": "#B8CDF8",
       "light": "#d7ffd9",
       "dark": "#75a478",
       "contrastText": "rgba(0, 0, 0, 0.87)"
