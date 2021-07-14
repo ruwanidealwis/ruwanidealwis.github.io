@@ -103,7 +103,7 @@ export default function TemporaryDrawer() {
           duration={1}
           to="/art"
         >
-          ART
+          MISC
         </AniLink>
 
       </Paper>

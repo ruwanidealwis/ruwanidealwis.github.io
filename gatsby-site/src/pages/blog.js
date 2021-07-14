@@ -44,7 +44,7 @@ class Blog extends React.Component {
                   <Grid item md={8} xs={12}>
                     <TitleComponent
                       title="Writing."
-                      description="writing from a very mediocre writer"
+                      description="i've always wanted to improve my writing so here are some (informal) blurbs"
                     />
                   </Grid>
                   <Grid item md={12} xs={12}>

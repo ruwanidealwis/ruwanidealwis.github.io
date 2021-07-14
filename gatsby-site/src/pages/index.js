@@ -32,7 +32,7 @@ class Home extends React.Component {
                
 
                 <Typography variant="h3" id="subTitle" style={{ fontSize: '3vw' }}>
-                    coder, developer, avid netflix watcher
+                    coder & avid tv show watcher
                   </Typography>
 
                 <Typography id="smallBio" variant="h4" style={{ fontSize: '1.5vw' }}>
