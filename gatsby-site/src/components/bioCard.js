@@ -11,11 +11,7 @@ import {
 } from "@material-ui/core"
 
 import iconImage from "../../static/images/minimalistV4.png"
-import testImage from "../../static/images/ghibli-9.jpg"
-import EmailIcon from "@material-ui/icons/EmailRounded"
-import MenuBookIcon from "@material-ui/icons/MenuBook"
-import SettingsIcon from "@material-ui/icons/Settings"
-import TvIcon from "@material-ui/icons/Tv"
+import testImage from "../../static/images/studioghibli.jpeg"
 
 import "../../static/styles/about.css"
 import React from "react"

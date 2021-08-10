@@ -3,16 +3,10 @@ import {
   CardContent,
   CardMedia,
   Grid,
-  Hidden,
-  Link,
   List,
-  ListItem,
-  ListItemIcon,
   Typography,
 } from "@material-ui/core"
 
-import LinkIcon from "@material-ui/icons/Launch"
-import GithubIcon from "../../static/images/github.svg"
 
 import "../../static/styles/about.css"
 import React from "react"
@@ -41,7 +35,6 @@ class ProjectCard extends React.Component {
       githubLink: props.githubLink,
       liveLink: props.liveLink,
       type: props.type,
-      nextSteps: props.nextSteps,
     }
   }
   render() {
@@ -50,9 +43,6 @@ class ProjectCard extends React.Component {
       tools,
       description,
       imgSrc,
-      githubLink,
-      nextSteps,
-      liveLink,
     } = this.state
     return (
       <Card

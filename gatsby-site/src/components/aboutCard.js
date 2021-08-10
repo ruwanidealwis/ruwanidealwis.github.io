@@ -1,6 +1,5 @@
 import { Card, CardContent, Typography } from "@material-ui/core"
 
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import React from "react"
 
 //F8552
@@ -61,7 +60,7 @@ class AboutCard extends React.Component {
             variant="body1"
             style={{ lineHeight: "2", paddingLeft: "2%", margin: "2%" }}
           >
-            <p>I spend much of my free time browsing netflix (reccomendations are always welcome!), and I even write about some of my favourite <a href="/blog"> tv shows/ movies </a>. When I'm not consuming televison, I like to paint, embroider, and sew! I love watching sports, and as a fan of FC Barcelona, and try to catch all their games, though it's been a lot of heartbreak recently. I am also getting back into reading, so suggestions are always appreciated and welcome!</p>
+            <p>I spend much of my free time browsing netflix (reccomendations are always welcome!), listening to music (which explains my love for the spotify api) and I even write about some of my favourite <a href="/blog"> tv shows/ movies </a>. When I'm not consuming televison, I like to paint, embroider, and sew! I love watching sports, and as a fan of FC Barcelona, and try to catch all their games, though it's been a lot of heartbreak recently. I am also getting back into reading, so suggestions are always appreciated and welcome!</p>
           </Typography>
 
         </CardContent>

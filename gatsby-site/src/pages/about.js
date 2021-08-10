@@ -5,7 +5,6 @@ import { Helmet } from "react-helmet"
 import AboutCard from "../components/aboutCard"
 import BioCard from "../components/bioCard"
 import TemporaryDrawer from "../components/navigation"
-import UpdateCard from "../components/updateCard"
 import Footer from "../components/footer"
 class About extends React.Component {
   render() {

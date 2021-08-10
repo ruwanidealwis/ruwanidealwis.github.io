@@ -2,18 +2,14 @@ import {
   Card,
   CardContent,
   Grid,
-  Paper,
   Typography,
-  Box,
   CardMedia,
   Button,
   CardActions,
-  ButtonBase,
 } from "@material-ui/core"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import TemporaryDrawer from "./navigation"
-import testImage from "../../static/images/ghibli-9.jpg"
+
 
 
 export default function BlogPosts() {
@@ -92,7 +88,8 @@ export default function BlogPosts() {
                   )}
 
                   <CardActions style={{ paddingLeft: "0" }}>
-                    <Button style={{ color: "var(--main)", paddingLeft: "0" }} href={`{https://ruwanide51.medium.com/${edges.node.uniqueSlug}}`}>Read More</Button>
+                    <Button style={{ color: "var(--main)", paddingLeft: "0" }} target="_blank" href={`https://ruwanide51.medium.com/${edges.node.uniqueSlug}`}>Read More
+                    </Button>
                   </CardActions>
 
 

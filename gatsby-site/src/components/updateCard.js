@@ -1,6 +1,4 @@
 import {
-  Card,
-  CardContent,
   Typography,
   List,
   ListItem,
@@ -8,7 +6,6 @@ import {
 } from "@material-ui/core"
 
 import React from "react"
-import EmailIcon from "@material-ui/icons/EmailRounded"
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import SettingsIcon from '@material-ui/icons/Settings';
 import TvIcon from '@material-ui/icons/Tv';
@@ -35,7 +32,7 @@ class UpdateCard extends React.Component {
          
           <Typography variant="body1">
             <List>
-              <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>lorem ipsum</ListItem>
+              <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>American Gods</ListItem>
             </List>
           
           </Typography>
@@ -61,7 +58,7 @@ class UpdateCard extends React.Component {
 
           <Typography variant="body1">
             <List>
-              <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>lorem ipsum</ListItem>
+              <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>New Girl (again)</ListItem>
             </List>
 
           </Typography>
@@ -87,7 +84,7 @@ class UpdateCard extends React.Component {
 
           <Typography variant="body1">
             <List>
-              <ListItem style={{ padding: "0%" , paddingLeft:"4%"}}>lorem ipsum</ListItem>
+              <ListItem style={{ padding: "0%" , paddingLeft:"4%"}}>News To Me</ListItem>
             </List>
 
           </Typography>

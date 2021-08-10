@@ -1,5 +1,4 @@
 import React from "react"
-import Typist from "react-typist"
 import { Helmet } from "react-helmet"
 import "../../static/styles/index.css"
 import TemporaryDrawer from "../components/navigation"
@@ -32,7 +31,7 @@ class Home extends React.Component {
                
 
                 <Typography variant="h3" id="subTitle" style={{ fontSize: '3vw' }}>
-                    coder & avid tv show watcher
+                    developer & avid tv show watcher
                   </Typography>
 
                 <Typography id="smallBio" variant="h4" style={{ fontSize: '1.5vw' }}>
