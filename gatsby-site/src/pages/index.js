@@ -1,5 +1,4 @@
 import React from "react"
-import Typist from "react-typist"
 import { Helmet } from "react-helmet"
 import "../../static/styles/index.css"
 import TemporaryDrawer from "../components/navigation"
@@ -16,7 +15,7 @@ class Home extends React.Component {
           <div
             style={{
               background:
-                "linear-gradient(to left,  var(--main) 60%, var(--secondary)  0%)",
+                "linear-gradient(to left,  var(--main) 47%, var(--secondary)  0%)",
               minHeight: "80vh",
             }}
           >
@@ -24,20 +23,19 @@ class Home extends React.Component {
 
             <Grid container spacing={4} alignItems={"center"}>
               <Grid item md={12} style={{ margin: "9%" }}>
-                <Typist cursor={{ hideWhenDone: true, show: false }}>
-                  <Typist.Delay ms={200} />
-                  <Typography id="headTitle" variant="h1">
-                    Hello!
+                
+              
+                  <Typography id="headTitle" variant="h1" style={{ fontSize:'5vw'}}>
+                  hi, i'm ruwani! 🌻
                   </Typography>
-                  <Typist.Delay ms={500} />
+               
 
-                  <Typography variant="h3" id="subTitle">
-                    I'm Ruwani and I love to code!
+                <Typography variant="h3" id="subTitle" style={{ fontSize: '3vw' }}>
+                    developer & avid tv show watcher
                   </Typography>
-                </Typist>
 
-                <Typography id="smallBio" variant="h4">
-                  You can learn more about me{" "}
+                <Typography id="smallBio" variant="h4" style={{ fontSize: '1.5vw' }}>
+                  learn more about me{" "}
                   <AniLink
                     activeStyle={{ color: "#ffce72" }}
                     swipe
@@ -45,18 +43,9 @@ class Home extends React.Component {
                     direction="right"
                     to="/about"
                   >
-                    here
-                  </AniLink>
-                  , and view my projects{" "}
-                  <AniLink
-                    activeStyle={{ color: "#ffce72" }}
-                    swipe
-                    style={{ color: "black", textDecoration: "underline" }}
-                    direction="right"
-                    to="/projects"
-                  >
                     here.
-                  </AniLink>{" "}
+                  </AniLink>
+                
                 </Typography>
               </Grid>
             </Grid>

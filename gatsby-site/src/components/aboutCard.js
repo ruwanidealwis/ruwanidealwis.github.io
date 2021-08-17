@@ -1,6 +1,5 @@
 import { Card, CardContent, Typography } from "@material-ui/core"
 
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import React from "react"
 
 //F8552
@@ -17,57 +16,53 @@ class AboutCard extends React.Component {
       <Card id="aboutCard" style={{ backgroundColor: "var(--pbg)" }}>
         <CardContent>
           <Typography
-            style={{ color: "var(--main)" }}
+            style={{ color: "var(--main)", paddingLeft: "2%", margin: "2%" }}
             gutterBottom
             variant="h4"
           >
-            ABOUT ME.
+           hello! ...
           </Typography>
-          <Typography gutterBottom variant="body1" style={{ lineHeight: "2" }}>
-            Hello! I'm Ruwani and I'm an incoming third-year student at the{" "}
-            <strong>University of Ottawa</strong> studying{" "}
-            <strong>Software Engineering.</strong>
-            <br />
-            <br />I have a strong passion for{" "}
-            <strong>full-stack development</strong>, with a focus on the backend
-            and server. I love developing<strong> REST APIs</strong>,{" "}
-            interacting with <strong>Databases</strong> and using data whether
-            it be music data from Spotify or NASA's catalogue of Space data to
-            create projects that are both meaningful and enjoyable. I've had the
-            experience of developing these skills through my{" "}
-            <AniLink
-              swipe
-              direction="right"
-              to="/projects?filter=webDevelopment"
-            >
-              web development projects{" "}
-            </AniLink>
-            and internships.
-            <br></br>
-            <br></br> My interest in Data has also introduced me to the field of{" "}
-            <strong>Data Science</strong> where I am hoping to advance my
-            knowledge of the subject. Some of my Data Science projects are
-            visible{" "}
-            <AniLink
-              swipe
-              direction="right"
-              duration={1}
-              to={"/projects?filter=dataScience"}
-            >
-              here.{" "}
-            </AniLink>
-            <br />
-            <br />
-            When I'm not coding, I'm probably listening to music on Spotify,
-            over-analyzing TV shows or watching FC Barcelona... I was able to
-            take up many hobbies including embroidering, painting, and even get
-            back into reading!
-            <br />
-            <br />
-            Please do not hesitate to reach out to me if you would like to speak
-            about tech, sports, tv, music or anything in general.
-            <br />
+
+          <Typography
+            gutterBottom
+            variant="body1"
+            style={{ lineHeight: "2", paddingLeft: "2%", margin: "2%" }}
+          >
+            <p>Hi i'm ruwani! I'm a third year software Engineering Student at uOttawa! I'm a software engineer by day, and a painter/reader/avid netflix watcher by night. </p>
           </Typography>
+          <Typography
+            style={{ color: "var(--main)", paddingLeft: "2%", margin: "2%" }}
+            gutterBottom
+            variant="h4"
+          >
+            within tech ...
+          </Typography>
+          <Typography
+            gutterBottom
+            variant="body1"
+            style={{ lineHeight: "2", paddingLeft: "2%", margin: "2%" }}
+          >
+            <p>I am currently interning as an SDE Intern @ SSENSE & and volunteering as a Backend Developer @ CU Blueprint where I help build apps for non-profits. I have experience with a variety of languages/frameworks and mostly work with JavaScript, Python & Java. </p>
+
+            <p>My interests in tech include fullstack development, mobile development & machine learning. I try to explore those interests through personal projects & hackathons which you can check out <a href="/projects">here.</a> I am also a scratch/python instructor @ kids code jeunesse, and I've also run intro to html/css/js workshops for non-coders.</p>
+          </Typography>
+
+          <Typography
+            style={{ color: "var(--main)", paddingLeft: "2%", margin: "2%" }}
+            gutterBottom
+            variant="h4"
+          >
+            beyond tech ...
+          </Typography>
+
+          <Typography
+            gutterBottom
+            variant="body1"
+            style={{ lineHeight: "2", paddingLeft: "2%", margin: "2%" }}
+          >
+            <p>I spend much of my free time browsing netflix (reccomendations are always welcome!), listening to music (which explains my love for the spotify api) and I even write about some of my favourite <a href="/blog"> tv shows/ movies </a>. When I'm not consuming televison, I like to paint, embroider, and sew! I love watching sports - especially football. I am also getting back into reading, so suggestions are always appreciated and welcome!</p>
+          </Typography>
+
         </CardContent>
       </Card>
     )

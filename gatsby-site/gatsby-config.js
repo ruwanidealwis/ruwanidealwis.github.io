@@ -24,10 +24,15 @@ module.exports = {
         path: path.join(__dirname, `static`, `images`),
       },
     },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@rdealwis`,
+      },
+    },
 
     `custom-mui-theme`,
     "gatsby-plugin-react-svg",
-    "gatsby-plugin-dark-mode",
     `gatsby-plugin-transition-link`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
