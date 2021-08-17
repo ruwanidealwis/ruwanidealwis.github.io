@@ -43,9 +43,10 @@ export default function BlogPosts() {
       }
     }
   `)
+  console.log(data)
   return (
     <>
-      <Grid container style={{ paddingLeft: "4%", paddingTop: "4%", paddingRight: "4%" }}>
+      <Grid container style={{ paddingLeft: "4%", paddingTop: "4%", paddingRight: "4%", }}>
         <Grid Item md={12} xs={12} >
           {data.allMediumPost.edges.map(edges => {
             return (
@@ -53,10 +54,11 @@ export default function BlogPosts() {
               <Card
                 style={{
                   backgroundColor: "var(--pbg)",
+                  marginBottom: "10%"
 
                 }}
               >
-                <CardMedia style={{ height: "25vh" }} image={`https://miro.medium.com/max/2162/${edges.node.virtuals.previewImage.imageId}`}></CardMedia>
+                <CardMedia style={{ height: "35vh" }} image={`https://miro.medium.com/max/2162/${edges.node.virtuals.previewImage.imageId}`}></CardMedia>
                 <CardContent
                   style={{ paddingLeft: "3%" }}>
                   <Typography color="secondaryText" gutterBottom>

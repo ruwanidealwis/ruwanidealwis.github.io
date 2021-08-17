@@ -27,13 +27,12 @@ module.exports = {
     {
       resolve: `gatsby-source-medium`,
       options: {
-        username: `@ruwanide51`,
+        username: `@rdealwis`,
       },
     },
 
     `custom-mui-theme`,
     "gatsby-plugin-react-svg",
-    "gatsby-plugin-dark-mode",
     `gatsby-plugin-transition-link`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

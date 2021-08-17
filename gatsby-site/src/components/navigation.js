@@ -7,13 +7,13 @@ import "../../static/styles/navigation.css"
 export default function TemporaryDrawer() {
   const iconStyle2 = {
     transform: "scale(1.5)",
-    paddingBottom: "100%",
-    paddingTop: "0%",
+    
   }
   const linkStyle = {
     marginRight: "2%",
     color: "var(--link)",
     fontFamily: "Raleway",
+    paddingBottom: "5%",
   }
   return (
     <div>
@@ -32,23 +32,12 @@ export default function TemporaryDrawer() {
           flexWrap: "wrap",
         }}
       >
-        <ThemeToggler>
-          {({ theme, toggleTheme }) => (
-            <label>
-              <input
-                type="checkbox"
-                onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
-                checked={theme === "dark"}
-                style={{ display: "none" }}
-              />{" "}
-              {theme === "dark" ? (
-                <div style={iconStyle2}>☀️ </div>
-              ) : (
-                <div style={iconStyle2}>🌙</div>
-              )}
-            </label>
-          )}
-        </ThemeToggler>
+         
+             
+             
+              
+            
+       
 
         <AniLink
           activeStyle={{ color: "black" }}

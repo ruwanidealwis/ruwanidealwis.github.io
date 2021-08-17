@@ -58,7 +58,7 @@ class UpdateCard extends React.Component {
 
           <Typography variant="body1">
             <List>
-              <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>New Girl (again)</ListItem>
+              <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>Outer Banks</ListItem>
             </List>
 
           </Typography>

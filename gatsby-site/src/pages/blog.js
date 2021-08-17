@@ -38,7 +38,7 @@ class Blog extends React.Component {
                   <BioCard />
                 </div>
               </Grid>
-              <Grid item md={8} xs={12}>
+              <Grid item lg={8} md={12} xs={12}>
                 <Grid container spacing={3}>
                   <Grid item md={8} xs={12}>
                     <TitleComponent

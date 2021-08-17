@@ -93,7 +93,7 @@ class Projects extends React.Component {
                       style={{ margin: "5%", width: "70%" }}
                     >
                       <ProjectCard
-                        name={"Messaging App (WIP)"}
+                        name={"News to Me (WIP)"}
                         tagline={"Bringing the news to you"}
                         type={"Web Development"}
                         description={`

@@ -43,6 +43,7 @@ class ProjectCard extends React.Component {
       tools,
       description,
       imgSrc,
+      githubLink,
     } = this.state
     return (
       <Card
@@ -68,9 +69,13 @@ class ProjectCard extends React.Component {
           <Grid container spacing={0}>
 
             <Grid item md={12}>
-              <Typography variant="h4" style={{ color: "var(--secondary)" }}>
-                {name}
+              <Typography variant="h4" style={{ paddingBottom:"1%" }}>
+               {name}
               </Typography>
+              <Typography variant="body" >
+               <a href={this.state.githubLink}>GITHUB</a>
+              </Typography>
+                         
             </Grid>
            
       
