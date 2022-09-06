@@ -4,6 +4,7 @@ import {
   CardMedia,
   Grid,
   List,
+  ListItem,
   Typography,
 } from "@material-ui/core"
 
@@ -62,6 +63,8 @@ class ProjectCard extends React.Component {
             overflow: "visible",
             color: "var(--secondary)",
             objectFit: "cover",
+            backgroundSize: "cover"
+
           }}
           image={imgSrc}
         ></CardMedia>
@@ -69,16 +72,25 @@ class ProjectCard extends React.Component {
           <Grid container spacing={0}>
 
             <Grid item md={12}>
-              <Typography variant="h4" style={{ paddingBottom:"1%" }}>
-               {name}
+              <Typography variant="h4" style={{ paddingBottom: "1%" }}>
+                {name}
               </Typography>
               <Typography variant="body" >
-               <a href={this.state.githubLink}>GITHUB</a>
+                <List
+                  style={{
+                    display: "inline-flex",
+                  }}
+                >
+                  <ListItem style={{ paddingLeft: '0' }}><a href={this.state.githubLink}>GITHUB</a></ListItem>
+                  {this.state.liveLink ? <ListItem style={{ paddingLeft: '0' }}><a href={this.state.liveLink}>VIEW</a></ListItem> : null}
+
+                </List>
+
               </Typography>
-                         
+
             </Grid>
-           
-      
+
+
             <Grid item md={12} xs={12}>
               <List
                 style={{
@@ -107,13 +119,13 @@ class ProjectCard extends React.Component {
                   ""
                 )
               )}
-             
+
 
 
             </Grid>
           </Grid>
         </CardContent>
-      </Card>
+      </Card >
     )
   }
 }

@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 body {
-    padding: 6%;
+  padding: 6%;
   --bg: rgb(238, 238, 238);
   --pbg: #ffffff;
   --obg: rgb(230, 230, 230);
@@ -10,9 +11,8 @@ body {
   --link: rgb(48, 49, 49);
   background-color: var(--bg);
 
-  --main: #F0C987;
-  --secondary: #B8CDF8
-;
+  --main: #629677;
+  --secondary: #98B6B1;
 }
 
 
@@ -26,29 +26,35 @@ a {
   text-decoration: none;
   font-weight: 600;
 }
+
 a:hover {
   color: var(--opc) !important;
   text-decoration: none;
   font-weight: 600;
 }
+
 .tl-edges {
   overflow: visible;
 }
+
 @-webkit-keyframes fadeinBio {
   from {
     opacity: 0;
     transform: translateY(150%);
   }
+
   to {
     opacity: 1;
     transform: translateY(10%);
   }
 }
+
 @keyframes fadeinBio {
   from {
     opacity: 0;
     transform: translateY(150%);
   }
+
   to {
     opacity: 1;
     transform: translateY(10%);
@@ -72,12 +78,14 @@ a:hover {
   .titles {
     text-align: center;
   }
+
   #headTitle {
     margin-left: 0 !important;
     margin-top: 15%;
     padding: 7%;
     font-size: 10vw;
   }
+
   #subTitle {
     margin-left: 0 !important;
     padding: 7%;

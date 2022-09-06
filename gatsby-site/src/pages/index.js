@@ -23,16 +23,16 @@ class Home extends React.Component {
 
             <Grid container spacing={4} alignItems={"center"}>
               <Grid item md={12} style={{ margin: "9%" }}>
-                
-              
-                  <Typography id="headTitle" variant="h1" style={{ fontSize:'5vw'}}>
+
+
+                <Typography id="headTitle" variant="h1" style={{ fontSize: '5vw' }}>
                   hi, i'm ruwani! 🌻
-                  </Typography>
-               
+                </Typography>
+
 
                 <Typography variant="h3" id="subTitle" style={{ fontSize: '3vw' }}>
-                    developer & avid tv show watcher
-                  </Typography>
+                  developer, among many other things
+                </Typography>
 
                 <Typography id="smallBio" variant="h4" style={{ fontSize: '1.5vw' }}>
                   learn more about me{" "}
@@ -45,7 +45,7 @@ class Home extends React.Component {
                   >
                     here.
                   </AniLink>
-                
+
                 </Typography>
               </Grid>
             </Grid>
