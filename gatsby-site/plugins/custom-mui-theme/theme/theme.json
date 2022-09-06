@@ -1,7 +1,19 @@
 {
   "breakpoints": {
-    "keys": ["xs", "sm", "md", "lg", "xl"],
-    "values": { "xs": 0, "lg": 1280, "sm": 600, "xl": 1920, "md": 960 }
+    "keys": [
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl"
+    ],
+    "values": {
+      "xs": 0,
+      "lg": 1280,
+      "sm": 600,
+      "xl": 1920,
+      "md": 960
+    }
   },
   "mixins": {
     "toolbar": {
@@ -9,7 +21,9 @@
       "@media (min-width:0px) and (orientation: landscape)": {
         "minHeight": 48
       },
-      "@media (min-width:600px)": { "minHeight": 64 }
+      "@media (min-width:600px)": {
+        "minHeight": 64
+      }
     }
   },
   "shadows": [
@@ -65,30 +79,27 @@
       "fontSize": "6vw",
       "fontWeight": 700
     },
-
     "h3": {
       "color": "#000",
       "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
       "fontSize": "4vw",
       "fontWeight": 500
     },
-
     "h4": {
       "color": "#000",
       "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
       "fontSize": "1.33rem",
       "fontWeight": 500
     },
-
     "h5": {
-      "color": "#B8CDF8",
+      "color": "#98B6B1",
       "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
       "fontSize": "1.2rem",
       "fontWeight": 400,
       "marginRight": "-.02em"
     },
-      "h6": {
-      "color": "#B8CDF8",
+    "h6": {
+      "color": "#98B6B1",
       "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
       "fontSize": "0.98rem",
       "fontWeight": 600,
@@ -190,12 +201,16 @@
     "mobileStepper": 1000,
     "tooltip": 1500
   },
-  "shape": { "borderRadius": 4 },
+  "shape": {
+    "borderRadius": 4
+  },
   "props": {},
-
   "palette": {
     "tonalOffset": 0.2,
-    "background": { "paper": "#191919", "default": "#191919" },
+    "background": {
+      "paper": "#191919",
+      "default": "#191919"
+    },
     "contrastThreshold": 3,
     "grey": {
       "50": "#fafafa",
@@ -221,12 +236,15 @@
     },
     "divider": "rgba(0, 0, 0, 0.12)",
     "secondary": {
-      "main": "#B8CDF8",
+      "main": "#98B6B1",
       "light": "#d7ffd9",
       "dark": "#75a478",
       "contrastText": "rgba(0, 0, 0, 0.87)"
     },
-    "common": { "black": "#000", "white": "#fff" },
+    "common": {
+      "black": "#000",
+      "white": "#fff"
+    },
     "error": {
       "light": "#e57373",
       "main": "#f44336",
