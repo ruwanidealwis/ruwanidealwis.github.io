@@ -40,8 +40,8 @@ class BioCard extends React.Component {
               backgroundColor: "#00000000",
               padding: "0%",
               marginBottom: "0",
-              width:"90%",
-              
+              width: "90%",
+
             }}
           >
             <Grid container spacing={3}>
@@ -51,7 +51,7 @@ class BioCard extends React.Component {
                   image={iconImage}
                 ></CardMedia>
               </Grid>
-              
+
             </Grid>
           </Card>
 
@@ -62,9 +62,9 @@ class BioCard extends React.Component {
           >
             <Typography
               style={{
-              
+
                 margin: "1%",
-                fontWeight:"500",
+                fontWeight: "500",
                 paddingLeft: "5%",
                 color: "var(--main)",
               }}
@@ -77,7 +77,7 @@ class BioCard extends React.Component {
             </Typography>
 
             <Typography
-           
+
               variant="body1"
               align="left"
               component="h2"
@@ -88,7 +88,7 @@ class BioCard extends React.Component {
             >
               @ruwanidealwis
             </Typography>
-          
+
             <List
               style={{
                 display: "inline-flex",
@@ -103,7 +103,7 @@ class BioCard extends React.Component {
                 padding: "0",
               }}
             >
-           
+
               <ListItem
                 component="a"
                 href="mailto: ruwanide51@gmail.com"
@@ -111,22 +111,22 @@ class BioCard extends React.Component {
               >
                 <ListItemText
                   display="block"
-                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration:'underline' } }}
+                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration: 'underline' } }}
                   primary="email"
                 />
               </ListItem>
               <ListItem component="a" href="https://github.com/ruwanidealwis">
                 <ListItemText
-                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration: 'underline'  } }}
+                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration: 'underline' } }}
                   primary="github"
                 />
               </ListItem>
               <ListItem
                 component="a"
-                href="https://www.linkedin.com/in/ruwani-de-alwis-610476187/"
+                href="https://www.linkedin.com/in/ruwani-de-alwis/"
               >
                 <ListItemText
-                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration: 'underline'  } }}
+                  primaryTypographyProps={{ style: { color: "var(--main)", textDecoration: 'underline' } }}
                   primary="linkedin"
                 />
               </ListItem>

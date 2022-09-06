@@ -13,85 +13,86 @@ import TvIcon from '@material-ui/icons/Tv';
 class UpdateCard extends React.Component {
   render() {
     return (
-     <div>
-          
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            backgroundColor: "var(--pbg)",
-            paddingLeft:'5%'}}
-            >
-            <MenuBookIcon color="secondary"/>
-            <span >
-              <Typography variant="h6" style={{ color: "var(--secondary)" , paddingLeft:"15%"}}>
-               READING
-          </Typography>
-            </span>
-          </div>
-         
-          <Typography variant="body1">
-            <List>
-              <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>American Gods</ListItem>
-            </List>
-          
-          </Typography>
-          <Divider />
-         
+      <div>
 
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            backgroundColor: "var(--pbg)",
-            paddingLeft: '5%',
-            paddingTop:"3%"
-          }}
-          >
-            <TvIcon color="secondary" />
-            <span >
-              <Typography variant="h6" style={{ color: "var(--secondary)", paddingLeft: "15%" }}>
-                WATCHING
-          </Typography>
-            </span>
-          </div>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          flexWrap: 'wrap',
+          backgroundColor: "var(--pbg)",
+          paddingLeft: '5%'
+        }}
+        >
+          <MenuBookIcon color="secondary" />
+          <span >
+            <Typography variant="h6" style={{ color: "var(--secondary)", paddingLeft: "15%" }}>
+              READING
+            </Typography>
+          </span>
+        </div>
 
-          <Typography variant="body1">
-            <List>
-              <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>Outer Banks</ListItem>
-            </List>
+        <Typography variant="body1">
+          <List>
+            <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>Pride & Prejudice</ListItem>
+          </List>
 
-          </Typography>
-          <Divider />
-          
+        </Typography>
+        <Divider />
 
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            backgroundColor: "var(--pbg)",
-            paddingLeft: '5%',
-            paddingTop:"3%"
-          }}
-          >
-            <SettingsIcon color="secondary" />
-            <span >
-              <Typography variant="h6" style={{ color: "var(--secondary)", paddingLeft: "15%" }}>
-                CODING
-          </Typography>
-            </span>
-          </div>
 
-          <Typography variant="body1">
-            <List>
-              <ListItem style={{ padding: "0%" , paddingLeft:"4%"}}>News To Me</ListItem>
-            </List>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          flexWrap: 'wrap',
+          backgroundColor: "var(--pbg)",
+          paddingLeft: '5%',
+          paddingTop: "3%"
+        }}
+        >
+          <TvIcon color="secondary" />
+          <span >
+            <Typography variant="h6" style={{ color: "var(--secondary)", paddingLeft: "15%" }}>
+              WATCHING
+            </Typography>
+          </span>
+        </div>
 
-          </Typography>
-        
+        <Typography variant="body1">
+          <List>
+            <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>Modern Family (again...)</ListItem>
+          </List>
 
-        
-     </div>
+        </Typography>
+        <Divider />
+
+
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          flexWrap: 'wrap',
+          backgroundColor: "var(--pbg)",
+          paddingLeft: '5%',
+          paddingTop: "3%"
+        }}
+        >
+          <SettingsIcon color="secondary" />
+          <span >
+            <Typography variant="h6" style={{ color: "var(--secondary)", paddingLeft: "15%" }}>
+              CODING
+            </Typography>
+          </span>
+        </div>
+
+        <Typography variant="body1">
+          <List>
+            <ListItem style={{ padding: "0%", paddingLeft: "4%" }}>Final Year Project</ListItem>
+          </List>
+
+        </Typography>
+
+
+
+      </div>
     )
   }
 }
